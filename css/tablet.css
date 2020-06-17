@@ -1,0 +1,12 @@
+.header-content h2 span {
+  color: #f1c11a;
+  line-height: 8px;
+}
+.service-content {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 1rem;
+}
+.bucket {
+  justify-content: space-around;
+}

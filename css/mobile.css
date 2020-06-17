@@ -1,0 +1,130 @@
+.header-content {
+  padding-top: 10vh;
+}
+.header-content h1,
+.intro-content h1,
+.contact-section h1 {
+  font-size: 26px;
+  margin-bottom: 2rem;
+}
+.header-content h2 span {
+  color: #f1c11a;
+  line-height: 20px;
+}
+.btn {
+  display: block;
+  margin: 0.2rem;
+  padding: 10px 25px;
+}
+.intro {
+  padding: 0;
+  height: auto;
+  font-size: smaller;
+  padding-bottom: 3rem;
+}
+.intro-text p {
+  text-align: justify;
+  color: #828282;
+  line-height: 24px;
+}
+.services {
+  background-color: green;
+  height: auto;
+}
+.bucket p {
+  color: white;
+  text-align: start;
+}
+.contact {
+  margin: 0;
+}
+.btn-submit {
+  margin: auto;
+}
+footer {
+  background-color: green;
+  padding-top: 5vh;
+  padding-bottom: 15px;
+  font-weight: bold;
+}
+@media screen and (device-width: 360px) and (device-height: 640px) {
+  .header {
+    line-height: 25px;
+  }
+  .header-content {
+    padding-top: 15vh;
+    text-align: center;
+  }
+  .header-content h1,
+  .intro-content h1,
+  .contact-section h1 {
+    font-size: 28px;
+  }
+
+  .intro-text p {
+    margin: 0;
+    line-height: 17px;
+    font-weight: bold;
+  }
+}
+/* Iphone 5 se */
+@media only screen and (device-width: 320px) and (max-device-width: 568px) {
+  .header {
+    line-height: 25px;
+  }
+  .intro {
+    padding-bottom: 48vh;
+  }
+}
+
+@media only screen and (device-width: 375px) and (max-device-width: 667px) {
+  .header {
+    line-height: 35px;
+  }
+  .intro {
+    padding-bottom: 24vh;
+  }
+}
+/* Iphone x Solving Problems with padding */
+@media only screen and (device-height: 812px) {
+  .intro {
+    padding-bottom: 32px;
+  }
+  .header-content {
+    padding-top: 28vh;
+    text-align: center;
+  }
+}
+
+/* Ipad  */
+@media only screen and (min-width: 768px) and (max-device-width: 1024px) {
+  .header {
+    height: 100vh;
+    color: #ffffff;
+    line-height: 50px;
+  }
+  .header-content {
+    padding-top: 40vh;
+    text-align: center;
+  }
+  .header-content h1,
+  .intro-content h1,
+  .contact-section h1 {
+    font-size: 42px;
+  }
+  .header-content h2 span {
+    color: #f1c11a;
+    line-height: 100px;
+  }
+  .intro {
+    background-color: #ffffff;
+    padding: 10vh 0;
+  }
+
+  .intro-text p {
+    text-align: justify;
+    color: #828282;
+    line-height: 44px;
+    font-weight: bold;
+  }
+}
